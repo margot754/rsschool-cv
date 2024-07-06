@@ -1,12 +1,36 @@
 * {
 margin: 0;
 padding: 0;
+text-decoration: none;
 }
 
 body {
     background-color: #383838;
     font-family: Resamitz-Bold;
     margin: auto;
+}
+
+
+h2{
+    font-size: 40px;
+}
+
+ul {
+    padding-left: 20px;
+   
+}
+
+
+li{
+    padding-bottom: 5px;
+}
+
+a{
+    color: #383838;
+}
+
+.info{
+    list-style-type:  none;
 }
 
 .container{
@@ -26,4 +50,182 @@ body {
     padding-right: 100px;
     display: flex;
     justify-content: space-between;
+}
+
+.block {
+    padding: 15px;
+}
+
+.name {
+    font-size: 100px;
+}
+
+.iam {
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    border-top: solid;
+}
+
+
+.descr {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.social {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.c-phone{
+    background-image: url(img/tel.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.c-loc{
+    background-image: url(img/location.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.c-git{
+    background-image: url(img/git.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.c-mail{
+    background-image: url(img/email.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.about-me {
+   
+ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section {
+  
+
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px 115px 115px 115px;
+    border-top: solid;
+}
+
+.achive {
+    height: 300px;
+margin-left: 50px;
+margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+}
+
+.achleft{
+    padding: 40px 2px 56px 70px;
+    width: 50%;
+    border-top: solid;
+    border-right: solid;
+    border-width: 0.5px;
+    border-color: black;
+}
+
+.achright{
+    width: 50%;
+    padding: 40px 2px 56px 70px;
+    border-top: solid;
+   
+    border-width: 0.5px;
+    border-color: black;
+}
+
+.resp{
+    margin-left: 10px;
+}
+
+.code {
+  
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.close{
+    cursor: pointer;
+}
+
+pre {
+    background-color: grey;
+}
+
+img {
+  
+    margin-top: 0px;
+    height: 80%;
+    width: auto;
+    opacity: 80%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.rs{
+    width: 60px;
+}
+
+
+
+footer {
+    
+    height: 50px;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+@font-face {
+    font-family: UbuntuBold;
+    src: url(fonts/UbuntuBold.woff);
+}
+
+@font-face {
+    font-family: Resamitz-Bold;
+    src: url(fonts/Resamitz-Bold.ttf.woff);
+}
+
+@font-face {
+    font-family: TenorSans;
+    src: url(fonts/TenorSans.ttf.woff);
 }
