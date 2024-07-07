@@ -38,6 +38,11 @@ a{
 
 .info{
     list-style-type:  none;
+    margin-top: 16px;
+}
+
+.info li{
+    margin-bottom: 10px;
 }
 
 .container{
@@ -157,19 +162,29 @@ a{
     margin-right: 50px;
     padding: 50px 115px 115px 115px;
     border-top: solid;
+    border-width: 0.5px;
 }
 
 .achive {
-    height: 300px;
+    height: 331px;
 margin-left: 50px;
 margin-right: 50px;
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: black;
+    
     
 }
 
+.skills{
+    margin-top: 50px;
+}
+
 .achleft{
+    height: 334px;
     padding: 40px 2px 56px 70px;
     width: 50%;
     border-top: solid;
@@ -179,6 +194,7 @@ margin-right: 50px;
 }
 
 .achright{
+    
     width: 50%;
     padding: 40px 2px 56px 70px;
     border-top: solid;
@@ -191,14 +207,49 @@ margin-right: 50px;
     margin-left: 10px;
 }
 
+.unic{
+    font-family: 'Alethia Pro';
+    font-weight: 700;
+}
+
 .exp-block{
-    
+    display: flex;
 }
 
 .years{
-    margin-bottom: 30px;
+    padding-top: 1px;
+    margin-bottom: 45px;
+   
 }
 
+.place{
+    
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+ .place .a{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.place .b{
+    margin-top: 21px;
+    margin-left: 10px
+
+}
+
+.place .c{
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
+.place li{
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+}
 
 .code {
   
@@ -214,6 +265,8 @@ margin-right: 50px;
 
 pre {
     background-color: grey;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .avatar{
@@ -237,20 +290,29 @@ summary{
     justify-content: center;
 }
 
+.example{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
 .works{
     
     height: 300px;
-  
+    margin-left: 75px;
+    margin-right: 75px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .link{
     background-image: url(img/project.png);
     opacity: 70%;
     filter: grayscale(1);
+    display: block;
+    height: 250px;
+    
 }
 
 .link:hover{
@@ -262,6 +324,14 @@ opacity: 100%;
     display: block;
     max-width: 100%;
     max-height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.project_title{
+    margin-left: 120px;
+    margin-top: 40px;
+
 }
 
 footer {
