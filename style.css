@@ -13,6 +13,13 @@ body {
 
 h2{
     font-size: 40px;
+    font-family: 'Alethia Pro';
+    margin-bottom: 15px;
+}
+
+h3{
+    font-weight: 100;
+    font-family: sans-serif;
 }
 
 ul {
@@ -38,7 +45,7 @@ a{
     background-color: #F4F5EF;
     margin: auto;
  
-    padding: 0px 40px 40px 40px;
+    padding: 0px 40px 5px 40px;
 }
 
 .header {
@@ -58,6 +65,13 @@ a{
 
 .name {
     font-size: 100px;
+    font-family: 'Alethia Pro';
+}
+
+.wrap {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .iam {
@@ -65,10 +79,11 @@ a{
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 50px;
+    padding-bottom: 1px;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border-top: solid;
 }
 
@@ -85,6 +100,13 @@ a{
     margin-left: auto;
     margin-right: auto;
     display: flex;
+}
+
+.right{
+
+    height: 300px;
+    display: flex;
+   
 }
 
 .c-phone{
@@ -122,7 +144,7 @@ a{
 
 .about-me {
    
- 
+  height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -169,6 +191,15 @@ margin-right: 50px;
     margin-left: 10px;
 }
 
+.exp-block{
+    
+}
+
+.years{
+    margin-bottom: 30px;
+}
+
+
 .code {
   
     height: 300px;
@@ -185,8 +216,7 @@ pre {
     background-color: grey;
 }
 
-img {
-  
+.avatar{
     margin-top: 0px;
     height: 80%;
     width: auto;
@@ -202,17 +232,47 @@ img {
     width: 60px;
 }
 
+summary{
+    display: flex;
+    justify-content: center;
+}
 
+.works{
+    
+    height: 300px;
+  
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 60px;
+}
+
+.link{
+    background-image: url(img/project.png);
+    opacity: 70%;
+    filter: grayscale(1);
+}
+
+.link:hover{
+
+opacity: 100%;
+}
+
+.project{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
 
 footer {
-    
-    height: 50px;
- 
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
-    justify-content: space-between;
-  
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+  margin-right: 50px;
+    margin-left: 50px;
+    border-top: #383838 solid;
+    
 }
 
 @font-face {
@@ -228,4 +288,16 @@ footer {
 @font-face {
     font-family: TenorSans;
     src: url(fonts/TenorSans.ttf.woff);
+}
+
+@font-face {
+	font-family: 'Alethia Pro';
+	src: url('fonts/AlethiaPro-Regular.woff2') format('woff2'), url('fonts/AlethiaPro-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anomoly';
+    src: url(fonts/AnomolyLight.ttf);
 }
