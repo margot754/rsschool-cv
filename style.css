@@ -1,0 +1,373 @@
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+
+body {
+    background-color: #383838;
+    font-family: Resamitz-Bold;
+    margin: auto;
+}
+
+
+h2{
+    font-size: 40px;
+    font-family: 'Alethia Pro';
+    margin-bottom: 15px;
+}
+
+h3{
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+ul {
+    padding-left: 20px;
+   
+}
+
+
+li{
+    padding-bottom: 5px;
+}
+
+a{
+    color: #383838;
+}
+
+nav{
+    list-style-type:  none;
+    margin-top: 16px;
+}
+
+nav li{
+    margin-bottom: 10px;
+}
+
+.container{
+    max-width: 1140px;
+    background-color: #F4F5EF;
+    margin: auto;
+ 
+    padding: 0px 40px 5px 40px;
+}
+
+.header {
+    
+   
+  
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    padding: 15px;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Alethia Pro';
+}
+
+.wrap {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iam {
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-top: solid;
+}
+
+
+.descr {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.social {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.right{
+
+    height: 300px;
+    display: flex;
+   
+}
+
+.c-phone{
+    background-image: url(img/tel.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.c-loc{
+    background-image: url(img/location.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.c-git{
+    background-image: url(img/git.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.c-mail{
+    background-image: url(img/email.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.about-me {
+   
+  height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section {
+  
+
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px 115px 115px 115px;
+    border-top: solid;
+    border-width: 0.5px;
+}
+
+.achive {
+    height: 331px;
+margin-left: 50px;
+margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: black;
+    
+    
+}
+
+.skills{
+    margin-top: 50px;
+}
+
+.achleft{
+    height: 334px;
+    padding: 40px 2px 56px 70px;
+    width: 50%;
+    border-top: solid;
+    border-right: solid;
+    border-width: 0.5px;
+    border-color: black;
+}
+
+.achright{
+    
+    width: 50%;
+    padding: 40px 2px 56px 70px;
+    border-top: solid;
+   
+    border-width: 0.5px;
+    border-color: black;
+}
+
+.resp{
+    margin-left: 10px;
+}
+
+.unic{
+    font-family: 'Alethia Pro';
+    font-weight: 700;
+}
+
+.exp-block{
+    display: flex;
+}
+
+.years{
+    padding-top: 1px;
+    margin-bottom: 45px;
+   
+}
+
+.place{
+    
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+ .place .a{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.place .b{
+    margin-top: 21px;
+    margin-left: 10px
+
+}
+
+.place .c{
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
+.place li{
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.code {
+  
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.close{
+    cursor: pointer;
+}
+
+pre {
+    background-color: grey;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.avatar{
+    margin-top: 0px;
+    height: 80%;
+    width: auto;
+    opacity: 80%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.rs{
+    width: 60px;
+}
+
+summary{
+    display: flex;
+    justify-content: center;
+}
+
+.example{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.works{
+    
+    height: 300px;
+    margin-left: 75px;
+    margin-right: 75px;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+}
+
+.link{
+    background-image: url(img/project.png);
+    opacity: 70%;
+    filter: grayscale(1);
+    display: block;
+    height: 250px;
+    
+}
+
+.link:hover{
+
+opacity: 100%;
+}
+
+.project{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.project_title{
+    margin-left: 120px;
+    margin-top: 40px;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+  margin-right: 50px;
+    margin-left: 50px;
+    border-top: #383838 solid;
+    
+}
+
+@font-face {
+    font-family: UbuntuBold;
+    src: url(fonts/UbuntuBold.woff);
+}
+
+@font-face {
+    font-family: Resamitz-Bold;
+    src: url(fonts/Resamitz-Bold.ttf.woff);
+}
+
+@font-face {
+    font-family: TenorSans;
+    src: url(fonts/TenorSans.ttf.woff);
+}
+
+@font-face {
+	font-family: 'Alethia Pro';
+	src: url('fonts/AlethiaPro-Regular.woff2') format('woff2'), url('fonts/AlethiaPro-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anomoly';
+    src: url(fonts/AnomolyLight.ttf);
+}
